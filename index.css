@@ -1,0 +1,162 @@
+.titolo{
+    font-size: 90px;
+    font-family: Merriweather;
+    color: #707070;
+}
+
+.bottone{
+    display: block;
+    color: white;
+    font-size: 35px;
+    background: #240202;
+    padding: 14px 33px;
+    margin-top: 50px;
+    font-size: 35px;
+    position: relative;
+    font-family: "Merrywheater";
+    text-decoration: none;
+    
+    
+
+}
+
+.bottone::after{
+    content: "";
+    height: 34px;
+    width: 28px;
+    background-size: 28x 34px;
+    color: white;
+    display: block;
+    position: absolute;
+    right: 32px;
+    top: 23px;
+    transform: translate(-50%);
+}
+
+
+
+  .lista{
+    padding-bottom: 105px;
+    padding-top: 105px;
+    background-color: #f5f5f5;
+  }
+  
+  ul{
+    counter-reset: listItem;
+    list-style: none;
+    font-size: 22px;
+    font-family: Merriweather;
+    padding-left: 0px;
+    
+  }
+  li:before {
+    color: #707070;
+    content: "0" counter(listItem)".";
+    counter-increment: listItem;
+    font-size: 70px;
+  }
+  .bottone-lista{
+    color:#FF0000;
+    padding-bottom: 100px;
+  }
+
+  .paragrafo{
+    color: #707070;
+    padding-bottom: 40px;
+  }
+  .hero.variant-one{
+    padding-top: 130px;
+    padding-bottom: 120px;
+    background-color:#CEFBFF;
+  }
+
+.hero.variant-two{
+    padding-top: 80px;
+    background-color: #ECCEFF;
+    padding-bottom: 200px;
+  }
+
+  li{
+    margin-bottom: 75px;
+  }
+  .lin{
+    color:#707070;
+    border-width: 2px;
+    height: 2px;
+    margin-top: 8px;
+    
+    padding-bottom: 15px;
+  }
+ 
+  .sottotitolo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    color: gray;
+    margin-top: 35px;
+}
+
+
+.footer{
+    font-family: "Merriweather";
+    font-size: 22px;
+    color: #707070;
+  }
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
